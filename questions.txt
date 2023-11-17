@@ -1,0 +1,8 @@
+I understand that setting private variables in a super class like Medicine could cause issues with recursion if you try to change their values by overriding them. However, I don't understand how recursion would be effected if the values are statically set in their child constructor or in the {}. Why can you use variables for min and max heat and set them inside the constructor?
+
+Another solution to an interface for this is creating a static class that uses instanceof to type check when running temperature checks. I agree with using Interfaces, as they are much cleaner.
+
+To be perfectly honest, I've taken a class on java before, so I don't have many questions. I never learned about {} so that was pretty cool to see in action here. I was wondering why basic java classes might not teach about {}. To get more questions in here, I suppose I'll ask: why isn't {} in basic java learning? Is it a new feature? When was it added or was it base?
+
+I know in C# you can specifiy what the integer equivalent of a Enum value is. This can be useful when trying to represent two or more Enum values at once via bitwise operators. Ex: https://www.c-sharpcorner.com/article/understanding-bitwise-enums-in-c-sharp/#:~:text=Bitwise%20enums%20in%20C%23%20provide,values%20within%20a%20compact%20representation.
+Does Java have an equivalent version of this?
